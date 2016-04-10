@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\Environment\Materials\Forest Grounds - Terrain Texture Pack\Readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

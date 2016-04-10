@@ -83,9 +83,23 @@
     <Compile Include="Assets\Enemy\Scripts\EnemyShoot.cs" />
     <Compile Include="Assets\Enemy\Scripts\PhysicAttack.cs" />
     <Compile Include="Assets\Enemy\Scripts\PlayerDetector.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Demo\DemoScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\FireBaseScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\FireLightScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
+    <Compile Include="Assets\Environment\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+    <Compile Include="Assets\Environment\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Items\Scripts\BulletController.cs" />
+    <Compile Include="Assets\Items\Scripts\DestroyOnBecameInvisible.cs" />
+    <Compile Include="Assets\Items\Scripts\PlayerDestroyer.cs" />
+    <Compile Include="Assets\Items\Scripts\Shoot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\Environment\Materials\Forest Grounds - Terrain Texture Pack\Readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

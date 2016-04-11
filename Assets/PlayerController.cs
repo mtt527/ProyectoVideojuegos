@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
@@ -9,18 +10,37 @@ public class PlayerController : MonoBehaviour {
     public Vector3 MoveVector { set; get; }
     public VirtualJoystick joystick;
 
+	public Slider hpBar;
+	public int hp;
+
     // Use this for initialization
     void Start()
     {
-    }
 
+		hpBar.value = hp;
+	}
+
+
+	void awake () {
+
+		hp = 100;
+	}
     // Update is called once per frame
     void Update()
     {
+		hpBar.value = hp;
 
         MoveVector = PoolInput();
 
         Move();
+
+
+		if (Input.GetKey(KeyCode.Space)) {
+
+			hp -= 20;
+		}
+
+		LoadLevel ();
     }
 
     private void Move()
@@ -50,5 +70,15 @@ public class PlayerController : MonoBehaviour {
 
         return dir;
     }
+
+	public void LoadLevel () {
+
+		if (hp <= 0) {
+
+			Application.LoadLevel ("GameOver");
+		}
+	}
+
+		
 }
 

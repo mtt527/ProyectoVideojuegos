@@ -74,6 +74,7 @@
      <Compile Include="Assets\Items\Scripts\Shoot.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\UI\ChangeCamera.cs" />
+     <Compile Include="Assets\UI\GameOver.cs" />
      <Compile Include="Assets\UI\StartMenu.cs" />
      <Compile Include="Assets\VirtualJoystick.cs" />
      <None Include="Assets\Environment\Materials\Forest Grounds - Terrain Texture Pack\Readme.txt" />
